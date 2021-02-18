@@ -1,8 +1,8 @@
 <?php
 session_start();
 
-$connect = mysqli_connect('localhost', 'root','');
-mysqli_select_db($connect, 'netflix');
+$connect = mysqli_connect('eu-cdbr-west-03.cleardb.net', 'be555d81b53d34','d87c6d4d');
+mysqli_select_db($connect, 'mysql db');
 
 $first_name = $_POST['first_name'];
 $last_name = $_POST['last_name'];
