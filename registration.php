@@ -30,7 +30,7 @@
             </div>
             <button class="form_button" type="submit">Start Membership</button>
             <p class="form_text">
-                <a class="form_link" href="http://localhost/netflix/login.php" id="LinkLogin">Already have an account? Sign in</a>
+                <a class="form_link" href="login.php" id="LinkLogin">Already have an account? Sign in</a>
             </p>
         </form>
     </div>
