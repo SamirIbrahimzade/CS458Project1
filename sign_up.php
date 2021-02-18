@@ -31,7 +31,7 @@ if($number == 1){
     echo "This email already taken";
 }
 else{
-    header('location:http://localhost/netflix/login.php');
+    header('location:login.php');
 
     $register = "INSERT INTO `user_info`(`first_name`, `last_name`,`email`, `password`) VALUES ('$first_name', '$last_name', '$email', '$password')";
     mysqli_query($connect, $register);
