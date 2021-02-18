@@ -21,7 +21,7 @@
             </div>
             <button id = "loginBtn" class="form_button" type="submit">Sign In</button>
             <p class="form_text">
-                <a class="form_link" href="http://localhost/netflix/registration.php" id="LinkCreateAccount"> Sign Up</a>
+                <a class="form_link" href="registration.php" id="LinkCreateAccount"> Sign Up</a>
             </p>
         </form>
     </div>
