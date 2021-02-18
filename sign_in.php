@@ -31,10 +31,10 @@ $result = " SELECT * FROM `user_info` WHERE `email` = '$email' && `password` = '
 $number = mysqli_num_rows(mysqli_query($connect, $result));
 
 if($number == 1){
-    header('location:http://localhost/netflix/home.php');
+    header('location:home.php');
 }
 else {
-    header('location:http://localhost/netflix/login.php');
+    header('location:login.php');
 }
 ?> 
 
