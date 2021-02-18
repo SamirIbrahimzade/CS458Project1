@@ -2,7 +2,7 @@
 session_start();
 
 $connect = mysqli_connect('eu-cdbr-west-03.cleardb.net', 'be555d81b53d34','d87c6d4d');
-mysqli_select_db($connect, 'mysql db');
+mysqli_select_db($connect, 'heroku_15f16662febfc8c');
 
 $first_name = $_POST['first_name'];
 $last_name = $_POST['last_name'];
