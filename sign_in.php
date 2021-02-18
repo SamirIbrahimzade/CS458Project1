@@ -1,11 +1,11 @@
 <?php
 session_start();
 
-$connect = mysqli_connect('localhost', 'root','');
+$connect = mysqli_connect('eu-cdbr-west-03.cleardb.net', 'be555d81b53d34','d87c6d4d');
 if (!$connect){
     die("Database Connection Failed");
 }
-mysqli_select_db($connect, 'netflix');
+mysqli_select_db($connect, 'mysql db');
 
 $email = $_POST['email'];
 $password = $_POST['password'];
