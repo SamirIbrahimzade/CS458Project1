@@ -13,7 +13,7 @@ session_start();
 <form class="form" id="LogOut" action="log_out.php" method="post">
     <div  class="container message">
         <h1>Welcome to Netflix</h1>
-        <button class="form_button log_out" type="submit">Log Out</button>
+        <button id = "homeBtn" class="form_button log_out" type="submit">Log Out</button>
     </div>
 </form>
 </body>
